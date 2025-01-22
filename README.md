@@ -1,6 +1,6 @@
 # Sismómetro con STM32F411E-DISCO
 
-Este proyecto utiliza la placa **STM32F411E-DISCO** para detectar eventos sísmicos mediante un acelerómetro integrado. Los datos se registran en un archivo `archivo.txt` almacenado en un dispositivo USB formateado en FAT32.
+Este proyecto utiliza la placa **STM32F411E-DISCO** para detectar eventos sísmicos mediante un acelerómetro integrado. Los datos se registran en un archivo `archivo.txt` almacenado en un dispositivo USB en FAT32.
 
 ## Características
 
@@ -12,7 +12,7 @@ Este proyecto utiliza la placa **STM32F411E-DISCO** para detectar eventos sísmi
 
 ## Uso
 
-1. Conecta un USB formateado en **FAT32** al puerto USB de la placa.
+1. Conecta un USB en **FAT32** al puerto USB de la placa.
 2. Mueve la placa para generar vibraciones.
 3. Los datos se almacenan en el archivo `archivo.txt` en el USB.
 4. Retira el USB y verifica el archivo en un ordenador.
